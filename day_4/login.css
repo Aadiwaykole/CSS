@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin :0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+    
+
+}
+
+.box{
+    height: 400px;
+    width: 450px;
+    background-color: white;
+    margin-top: 20px;
+    padding :60px;
+    border-radius: 10px;
+}
+
+h1{
+    
+    text-align: center;
+    margin-bottom: 7px;
+    color: rgb(81, 81, 201);
+}
+
+label{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+input{
+    width:90%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+
+button{
+    width: 100%;
+    font-size: 30px;
+    color:white;
+    background-color: rgb(74, 74, 204);
+}
