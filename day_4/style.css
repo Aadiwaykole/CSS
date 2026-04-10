@@ -1,0 +1,36 @@
+.box   {
+    height: 100px;
+    width:100px;
+    margin: 5px;
+}
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 400px;
+    flex-direction: row; 
+
+    align-items: center;
+    justify-content: center ;  /* it has starat, end, cente, space around, space between space evently
+}
+
+/*justify content: main  axis ke around kaam karta hai 
+main axis decide kun karega, apka flex direction
+
+align items work around corss axis */
+.first{
+    background-color: red;
+    
+
+}
+.second{
+    background-color: pink;
+
+}
+.third{
+    background-color: blue;
+
+}
+.fourth{
+    background-color: orange;
+    align-self: flex-start;
+}
