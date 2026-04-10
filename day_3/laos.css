@@ -1,0 +1,17 @@
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position:absolute;
+    border-sizing: border-sizing
+}
+.first, .third{
+    height: 50px;
+    width: 300px;
+    background-color: red
+}
+
+.third{
+    position: relative;
+    bottom: 0px;
+}
